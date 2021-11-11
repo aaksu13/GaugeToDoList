@@ -1,0 +1,17 @@
+
+# Buy Some Milk
+* I write "buy some milk" to textbox and press enter
+
+# Enjoy the Assignment
+* I write "enjoy the assignment" to textbox and press enter
+
+# Rest for a While
+* I write "rest for a while" to textbox and press enter
+
+# Delete Rest for a While
+* I click on delete button next to 'rest for a while' item
+
+# Add and Marked Buy Some Milk
+* Buy Some Milk
+* I click on checkbox next to item
+
