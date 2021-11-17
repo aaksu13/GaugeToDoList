@@ -9,7 +9,7 @@ import java.util.List;
 public class Steps extends BaseMetods{
 
     @Step("I write <x> to textbox and press enter")
-    public void writeBuySomeMilk(String x) {
+    public void writeText(String x) {
         writeCheckBox(Locators.text,x);
     }
 

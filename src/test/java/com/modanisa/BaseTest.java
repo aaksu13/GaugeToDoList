@@ -15,19 +15,17 @@ public class BaseTest {
     @BeforeScenario
     public void setUp(){
         ChromeOptions options = new ChromeOptions();
-        System.setProperty("webdriver.chrome.driver", "chromedriver.exe" + "");
+        System.setProperty("webdriver.chrome.driver", "chromedriver.exe");
         options.addArguments("start-maximized");
         driver = new ChromeDriver(options);
         wait = new WebDriverWait(driver, 10, 1000);
         driver.get("https://todomvc.com/examples/vue/");
     }
 
-    /*@AfterScenario
+    @AfterScenario
     public void tearDown(){
         driver.quit();
     }
-
-     */
 
 
 }
